@@ -12,7 +12,7 @@ void
 start()
 {
   extern int main();
-aa  main();
+  main();
   exit(0);
 }
 
