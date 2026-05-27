@@ -1,0 +1,267 @@
+[
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/bio.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/bio.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/bio.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/console.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/console.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/console.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/exec.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/exec.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/exec.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/file.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/file.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/file.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/fs.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/fs.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/fs.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/kalloc.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/kalloc.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/kalloc.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/log.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/log.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/log.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/main.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/main.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/main.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/pipe.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/pipe.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/pipe.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/plic.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/plic.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/plic.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/printf.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/printf.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/printf.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/proc.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/proc.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/proc.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/sleeplock.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/sleeplock.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/sleeplock.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/spinlock.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/spinlock.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/spinlock.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/start.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/start.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/start.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/string.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/string.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/string.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/syscall.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/syscall.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/syscall.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/sysfile.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/sysfile.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/sysfile.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/sysproc.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/sysproc.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/sysproc.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/trap.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/trap.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/trap.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/uart.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/uart.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/uart.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/virtio_disk.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/virtio_disk.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/virtio_disk.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o kernel/vm.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/vm.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/vm.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -g -c -o kernel/entry.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/entry.S",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/entry.S"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -g -c -o kernel/kernelvec.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/kernelvec.S",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/kernelvec.S"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -g -c -o kernel/swtch.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/swtch.S",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/swtch.S"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -g -c -o kernel/trampoline.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/trampoline.S",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/kernel/trampoline.S"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/cat.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/cat.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/cat.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/dorphan.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/dorphan.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/dorphan.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/echo.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/echo.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/echo.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/forktest.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/forktest.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/forktest.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/forphan.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/forphan.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/forphan.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/grep.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/grep.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/grep.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/grind.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/grind.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/grind.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/init.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/init.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/init.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/kill.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/kill.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/kill.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/ln.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/ln.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/ln.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/logstress.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/logstress.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/logstress.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/ls.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/ls.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/ls.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/memdump.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/memdump.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/memdump.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/mkdir.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/mkdir.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/mkdir.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/printf.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/printf.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/printf.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/rm.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/rm.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/rm.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/sh.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/sh.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/sh.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/sleep.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/sleep.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/sleep.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/stressfs.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/stressfs.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/stressfs.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/ulib.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/ulib.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/ulib.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/umalloc.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/umalloc.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/umalloc.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/usertests.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/usertests.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/usertests.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/wc.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/wc.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/wc.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/zombie.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/zombie.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/zombie.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/usys.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/usys.S",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/usys.S"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "gcc -DSOL_UTIL -DLAB_UTIL -Werror -Wall -I. -c mkfs/mkfs.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/mkfs/mkfs.c"
+  }
+]

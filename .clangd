@@ -1,0 +1,2 @@
+CompileFlags:
+  Add: [-I., -DSOL_UTIL, -DLAB_UTIL, -nostdlib, -ffreestanding]
