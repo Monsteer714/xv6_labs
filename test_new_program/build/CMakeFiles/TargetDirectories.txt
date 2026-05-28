@@ -1,0 +1,3 @@
+/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/test_new_program/build/CMakeFiles/new_target.dir
+/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/test_new_program/build/CMakeFiles/edit_cache.dir
+/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/test_new_program/build/CMakeFiles/rebuild_cache.dir

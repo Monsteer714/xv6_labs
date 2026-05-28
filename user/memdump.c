@@ -17,6 +17,8 @@ main(int argc, char *argv[])
     
     printf("Example 3:\n");
     char *s = "another";
+    //type of &s clearly is char**,so to get &s just need to cast data to char**
+    //then *data,you could get s;
     memdump("s", (char *) &s);
 
     struct sss {
@@ -60,6 +62,32 @@ main(int argc, char *argv[])
 void
 memdump(char *fmt, char *data)
 {
-  // Your code here.
-
+  void* temp = data;
+  for (int i = 0; i < strlen(fmt); i++) {
+      char c = fmt[i];
+      if (c == 'i') {
+          printf("%d\n", *((int*)temp));
+          temp += sizeof(int);
+      }
+      if (c == 'h') {
+          printf("%d\n", *((short*)temp));
+          temp += sizeof(short);
+      }
+      if (c == 's') {
+          printf("%s\n", *(char **)temp);
+          temp += sizeof(char *);
+      }
+      if (c == 'p') {
+          printf("%x\n", (*((int*)temp)));
+          temp += sizeof(long);
+      }
+      if (c == 'c') {
+          printf("%c\n", *((char *)temp));
+          temp += sizeof(char);
+      }
+      if (c == 'S') {
+          printf("%s\n", (char *)temp);
+          temp += sizeof(char *);
+      }
+  }
 }

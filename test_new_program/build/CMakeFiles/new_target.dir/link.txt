@@ -1,0 +1,1 @@
+/usr/bin/cc -g -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/new_target.dir/test.c.o -o new_target
