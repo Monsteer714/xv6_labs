@@ -3,6 +3,7 @@
 #include "user/user.h"
 #include "kernel/fs.h"
 #include "kernel/fcntl.h"
+#include "kernel/param.h"
 
 
 char*
@@ -94,6 +95,86 @@ find(char *path, char *name)
     }
 }
 
+void
+find_exec(int argc, char *argv[]) {
+    char *path = argv[1];
+    char *name = argv[2];
+    char *cmd = argv[4];
+    char* args[MAXARG];
+    int i = 0;
+    for (i = 4; i < argc; i++) {
+        //printf("args[%d]: %s\n", i - 4, argv[i]);
+        args[i - 4] = argv[i];
+    }
+
+    int fd;
+    struct dirent de;
+    struct stat st;
+
+    if ((fd = open(path, O_RDONLY)) < 0) {
+        fprintf(2, "find: cannot open %s\n", path);
+        return;
+    }
+
+    if (fstat(fd, &st) < 0) {
+        fprintf(2, "find: cannot stat %s\n", path);
+        close(fd);
+        return;
+    }
+
+    if (st.type == T_DIR) {
+        char buf[512], *p;
+        if(strlen(path) + 1 + DIRSIZ + 1 > sizeof buf){
+            printf("ls: path too long\n");
+            return;
+        }
+        strcpy(buf, path);
+        p = buf + strlen(buf);
+        *p++ = '/';
+        //printf("this is dir %s\n", path);
+        while ((read(fd, &de, sizeof(de)) == sizeof(de))) {
+            if (de.inum == 0) {
+                continue;
+            }
+            if (strcmp(de.name, ".") == 0 || strcmp(de.name, "..") == 0) {
+                continue;
+            }
+            memmove(p, de.name, DIRSIZ);
+            p[DIRSIZ] = 0;
+            if ((stat(buf, &st) < 0)) {
+                fprintf(2, "find: cannot stat %s\n", buf);
+            } 
+            if (st.type == T_DIR) {
+                argv[1] = buf;
+                find_exec(argc, argv); 
+            }
+            else if (st.type == T_FILE) {
+                //printf("this is file %s %s\n", fmtname(buf), buf);
+                if (strcmp(fmtname(buf), name) == 0) {
+                    args[i - 4] = buf;
+                    printf("find : %s\n", buf);
+                   // int j = 0;
+                   // while (args[j] != 0) {
+                   //     printf("arg: %s ", args[j]);
+                   //     j++;
+                   // }
+                   // printf("\n");
+                    int pid = fork();
+                    if (pid < 0) {
+                        fprintf(2, "find: fork failed\n");
+                    } else if (pid == 0) {
+                        printf("exec : %s\n", cmd);
+                        exec(cmd, args);
+                        exit(0);
+                    } else {
+                        wait(0);
+                    }
+                }
+            }
+        } 
+        return;
+    }
+}
 
 int
 main(int argc, char *argv[])
@@ -103,10 +184,21 @@ main(int argc, char *argv[])
         exit(1);
     } else if (argc <= 2) {
         find(".", argv[1]);
-    } else {
+    } else if (argc == 3) {
         find(argv[1], argv[2]);
+    } else {
+        if (strcmp(argv[3], "-exec") == 0) {
+            //printf("Executing command %s with arguments: ", argv[4]);
+            //for (int i = 5; i < argc; i++) {
+            //    printf("%s ", argv[i]);
+            //}
+            //printf("\n");
+            find_exec(argc, argv);
+        } 
+        else {
+            fprintf(2, "Wrong Syntax: find [path] [name] -exec [command]\n");   
+        }
     }
-    printf("find ran\n");
 
     exit(0);
 }
