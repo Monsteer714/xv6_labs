@@ -261,6 +261,11 @@
   },
   {
     "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
+    "command": "riscv64-unknown-elf-gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_UTIL -DLAB_UTIL -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -fno-builtin-strncpy -fno-builtin-strncmp -fno-builtin-strlen -fno-builtin-memset -fno-builtin-memmove -fno-builtin-memcmp -fno-builtin-log -fno-builtin-bzero -fno-builtin-strchr -fno-builtin-exit -fno-builtin-malloc -fno-builtin-putc -fno-builtin-free -fno-builtin-memcpy -Wno-main -fno-builtin-printf -fno-builtin-fprintf -fno-builtin-vprintf -I. -fno-stack-protector -fno-pie -no-pie -c -o user/find.o /Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/find.c",
+    "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/user/find.c"
+  },
+  {
+    "directory": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab",
     "command": "gcc -DSOL_UTIL -DLAB_UTIL -Werror -Wall -I. -c mkfs/mkfs.c",
     "file": "/Users/monsteer/Desktop/codes/Labs_Monsteer714/monsteer714_xv6_lab/mkfs/mkfs.c"
   }
